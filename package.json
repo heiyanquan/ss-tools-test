@@ -1,6 +1,6 @@
 {
   "name": "ss-tools-test",
-  "private": true,
+  "private": false,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "husky install",

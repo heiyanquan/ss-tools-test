@@ -1,5 +1,19 @@
 # @qftjs/monorepo1
 
+## 2.0.0
+
+### Major Changes
+
+- init log
+
+### Patch Changes
+
+- 7bfa7a7: test 444
+- 7bfa7a7: N
+- Updated dependencies [7bfa7a7]
+- Updated dependencies
+  - @qftjs/monorepo2@2.0.0
+
 ## 1.0.4-beta.0
 
 ### Patch Changes
