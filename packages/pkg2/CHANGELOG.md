@@ -1,4 +1,4 @@
-# @qftjs/monorepo2
+# @heiyanquan/monorepo2
 
 ## 2.0.0
 

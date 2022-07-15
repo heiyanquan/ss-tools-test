@@ -1,4 +1,4 @@
-# @qftjs/monorepo1
+# @heiyanquan/monorepo1
 
 ## 2.0.0
 
@@ -11,7 +11,7 @@
 - Updated dependencies [7bfa7a7]
 - Updated dependencies [7bfa7a7]
 - Updated dependencies
-  - @qftjs/monorepo1@2.0.0
+  - @heiyanquan/monorepo1@2.0.0
 
 ## 1.0.4-beta.0
 
@@ -19,7 +19,7 @@
 
 - test 444
 - Updated dependencies
-  - @qftjs/monorepo2@1.0.4-beta.0
+  - @heiyanquan/monorepo2@1.0.4-beta.0
 
 ## 1.0.3
 
@@ -35,7 +35,7 @@
 - 测试发包
 - c790a59: test pkg1 beta2
 - Updated dependencies
-  - @qftjs/monorepo2@1.0.2
+  - @heiyanquan/monorepo2@1.0.2
 
 ## 1.0.2-beta.1
 
@@ -55,4 +55,4 @@
 
 - init package
 - Updated dependencies
-  - @qftjs/monorepo2@1.0.1
+  - @heiyanquan/monorepo2@1.0.1

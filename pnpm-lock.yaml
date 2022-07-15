@@ -34,10 +34,10 @@ importers:
 
   packages/pkg1:
     specifiers:
-      '@qftjs/monorepo2': workspace:*
+      '@heiyanquan/monorepo2': workspace:*
       axios: ^0.27.2
     dependencies:
-      '@qftjs/monorepo2': link:../pkg2
+      '@heiyanquan/monorepo2': link:../pkg2
       axios: 0.27.2
 
   packages/pkg2:
@@ -45,9 +45,9 @@ importers:
 
   playground/demo:
     specifiers:
-      '@qftjs/monorepo1': workspace:*
+      '@heiyanquan/monorepo1': workspace:*
     dependencies:
-      '@qftjs/monorepo1': link:../../packages/pkg1
+      '@heiyanquan/monorepo1': link:../../packages/pkg1
 
 packages:
 

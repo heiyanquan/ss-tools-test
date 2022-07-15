@@ -1,5 +1,5 @@
 {
-  "name": "@qftjs/demo",
+  "name": "@heiyanquan/demo",
   "version": "2.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -17,6 +17,6 @@
   "author": "qi.futao",
   "license": "ISC",
   "dependencies": {
-    "@qftjs/monorepo1": "workspace:*"
+    "@heiyanquan/monorepo1": "workspace:*"
   }
 }

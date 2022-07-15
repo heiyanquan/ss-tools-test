@@ -4,7 +4,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "husky install",
-    "build": "pnpm --filter=@qftjs/* run build",
+    "build": "pnpm --filter=@heiyanquan/* run build",
     "commit": "cz",
     "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
     "changeset": "changeset",
@@ -35,5 +35,8 @@
     "lint-staged": "^12.4.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.6.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

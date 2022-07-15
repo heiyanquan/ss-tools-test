@@ -33,7 +33,7 @@ $ npm install -g pnpm
 
 ### 工程初始化
 
-为了便于后续的演示，先在工程根目录下新建 `packages` 目录，并且在 `packages` 目录下创建 `pkg1` 和 `pkg2` 两个工程，分别进到 `pkg1` 和 `pkg2` 两个目录下，执行 `npm init` 命令，初始化两个工程，`package.json` 中的 `name` 字段分别叫做 `@qftjs/menorepo1` 和 `@qftjs/monorepo2`(*PS：@qftjs是提前在npm上创建好的组织，没有的话需要提前创建*)。
+为了便于后续的演示，先在工程根目录下新建 `packages` 目录，并且在 `packages` 目录下创建 `pkg1` 和 `pkg2` 两个工程，分别进到 `pkg1` 和 `pkg2` 两个目录下，执行 `npm init` 命令，初始化两个工程，`package.json` 中的 `name` 字段分别叫做 `@heiyanquan/menorepo1` 和 `@heiyanquan/monorepo2`(*PS：@heiyanquan是提前在npm上创建好的组织，没有的话需要提前创建*)。
 
 为了防止根目录被发布出去，需要设置工程根目录下 `package.json` 配置文件的 `private` 字段为 `true`。
 
@@ -43,7 +43,7 @@ $ npm install -g pnpm
 
 ```ts
 // pkg1/src/index.ts
-import pkg2 from '@qftjs/monorepo2';
+import pkg2 from '@heiyanquan/monorepo2';
 
 function fun2() {
   pkg2();
@@ -179,7 +179,7 @@ $ pnpm install rollup -wD
 因此，如果想给 pkg1 安装一个依赖包，比如 `axios`，可以进行如下操作：
 
 ```bash
-$ pnpm add axios --filter @qftjs/monorepo1
+$ pnpm add axios --filter @heiyanquan/monorepo1
 ```
 
 需要注意的是，`--filter` 参数跟着的是package下的 `package.json` 的 `name` 字段，并不是目录名。
@@ -187,7 +187,7 @@ $ pnpm add axios --filter @qftjs/monorepo1
 关于 `--filter` 操作其实还是很丰富的，比如执行 pkg1 下的 scripts 脚本：
 
 ```bash
-$ pnpm build --filter @qftjs/monorepo1
+$ pnpm build --filter @heiyanquan/monorepo1
 ```
 
 `filter` 后面除了可以指定具体的包名，还可以跟着匹配规则来指定对匹配上规则的包进行操作，比如：
@@ -203,17 +203,17 @@ $ pnpm build --filter "./packages/**"
 基于 pnpm 提供的 `workspace:协议`，可以方便的在 packages 内部进行互相引用。比如在 pkg1 中引用 pkg2：
 
 ```bash
-$ pnpm install @qftjs/monorepo2 -r --filter @qftjs/monorepo1
+$ pnpm install @heiyanquan/monorepo2 -r --filter @heiyanquan/monorepo1
 ```
 
-此时我们查看 pkg1 的 `package.json`，可以看到 `dependencies` 字段中多了对 `@qftjs/monorepo2` 的引用，以 `workspace:` 开头，后面跟着具体的版本号。
+此时我们查看 pkg1 的 `package.json`，可以看到 `dependencies` 字段中多了对 `@heiyanquan/monorepo2` 的引用，以 `workspace:` 开头，后面跟着具体的版本号。
 
 ```json
 {
-  "name": "@qftjs/monorepo1",
+  "name": "@heiyanquan/monorepo1",
   "version": "1.0.0",
   "dependencies": {
-    "@qftjs/monorepo2": "workspace:^1.0.0",
+    "@heiyanquan/monorepo2": "workspace:^1.0.0",
     "axios": "^0.27.2"
   }
 }
@@ -276,7 +276,7 @@ $ pnpm changeset init
   "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
   "changelog": "@changesets/cli/changelog",
   "commit": false,
-  "linked": [["@qftjs/*"]],
+  "linked": [["@heiyanquan/*"]],
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
@@ -308,7 +308,7 @@ $ pnpm changeset init
 
 ```json
 {
-  "build": "pnpm --filter=@qftjs/* run build"
+  "build": "pnpm --filter=@heiyanquan/* run build"
 }
 ```
 
@@ -350,7 +350,7 @@ $ pnpm changeset init
 
 ```json
 {
-  "name": "@qftjs/monorepo1",
+  "name": "@heiyanquan/monorepo1",
   "version": "1.0.2-beta.1"
 }
 ```
