@@ -1,6 +1,6 @@
 {
   "name": "@heiyanquan/components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "all components are settled here",
   "main": "index.ts",
   "module": "index.ts",

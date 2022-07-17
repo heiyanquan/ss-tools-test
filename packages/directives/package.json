@@ -1,6 +1,6 @@
 {
   "name": "@heiyanquan/directives",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Element Plus directives",
   "license": "MIT",
   "main": "index.ts",
