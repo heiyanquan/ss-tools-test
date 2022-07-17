@@ -1,6 +1,6 @@
 {
   "name": "@ss-ele/hooks",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "Element Plus composables",
   "license": "MIT",
   "main": "index.ts",

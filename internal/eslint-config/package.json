@@ -1,6 +1,6 @@
 {
   "name": "@ss-ele/eslint-config",
-  "version": "0.0.2",
+  "version": "1",
   "description": "ESLint Config",
   "license": "MIT",
   "files": [

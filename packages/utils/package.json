@@ -1,6 +1,7 @@
 {
   "name": "@ss-ele/utils",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
   "license": "MIT",
   "main": "index.ts",
   "peerDependencies": {

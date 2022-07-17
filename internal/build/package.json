@@ -1,6 +1,6 @@
 {
   "name": "@ss-ele/build",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "private": true,
   "description": "Build Toolchain for Element Plus",
   "main": "./lib/index.cjs",
@@ -15,7 +15,7 @@
     "vue": "^3.2.25"
   },
   "dependencies": {
-    "@ss-ele/build-constants": "^0.0.2",
+    "@ss-ele/build-constants": "^0.0.1",
     "@pnpm/find-workspace-packages": "^4.0.10",
     "@pnpm/logger": "^4.0.0",
     "@rollup/plugin-commonjs": "^22.0.0",
