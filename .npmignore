@@ -1,0 +1,17 @@
+# 忽略目录
+internal/
+packages/
+play/
+script/
+typings/
+
+# 忽略指定文件
+scripts/gen-version.ts
+tsconfig.base.json
+tsconfig.json
+tsconfig.node.json
+tsconfig.play.json
+tsconfig.vite-config.json
+tsconfig.vitest.json
+tsconfig.web.json
+
