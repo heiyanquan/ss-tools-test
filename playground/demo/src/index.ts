@@ -7,4 +7,8 @@ function fun2() {
 
 fun2();
 
+export function handleDate() {
+  console.log("handleDate");
+}
+
 export default fun2;
