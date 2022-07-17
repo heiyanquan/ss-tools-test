@@ -1,6 +1,6 @@
 import path from 'path'
-import { PKG_NAME } from '@ss-ele/build-constants'
-import { epOutput } from '@ss-ele/build-utils'
+import { PKG_NAME } from '@heiyanquan/build-constants'
+import { epOutput } from '@heiyanquan/build-utils'
 
 import type { ModuleFormat } from 'rollup'
 
@@ -13,12 +13,12 @@ export interface BuildInfo {
   output: {
     /** e.g: `es` */
     name: string
-    /** e.g: `lib/ss-ele/es` */
+    /** e.g: `lib/heiyanquan/es` */
     path: string
   }
 
   bundle: {
-    /** e.g: `ss-ele/es` */
+    /** e.g: `heiyanquan/es` */
     path: string
   }
 }

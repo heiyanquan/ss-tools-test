@@ -1,4 +1,4 @@
-# @ss-ele/tokens
+# @heiyanquan/tokens
 
 ## 0.0.2
 

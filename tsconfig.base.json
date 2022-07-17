@@ -16,7 +16,9 @@
     "rootDir": ".",
     "types": [],
     "paths": {
-      "@ss-ele/*": ["packages/*"]
+      "@heiyanquan/*": [
+        "packages/*"
+      ]
     }
   }
 }

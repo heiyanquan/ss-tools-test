@@ -1,5 +1,5 @@
 import type { vShow } from 'vue'
-import type { INSTALLED_KEY } from '@ss-ele/constants'
+import type { INSTALLED_KEY } from '@heiyanquan/constants'
 
 declare global {
   const process: {

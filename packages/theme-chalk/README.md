@@ -5,7 +5,7 @@
 ## Installation
 
 ```shell
-npm i ss-ele
+npm i heiyanquan
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ npm i ss-ele
 Use Sass import
 
 ```css
-@use 'ss-ele/lib/theme-chalk/index.scss';
+@use 'heiyanquan/lib/theme-chalk/index.scss';
 ```
 
 Or Use vite/webpack
 
 ```javascript
-import 'ss-ele/lib/theme-chalk/index.css'
+import 'heiyanquan/lib/theme-chalk/index.css'
 ```
 
 Or
@@ -27,7 +27,7 @@ Or
 ```html
 <link
   rel="stylesheet"
-  href="https://unpkg.com/ss-ele/lib/theme-chalk/index.css"
+  href="https://unpkg.com/heiyanquan/lib/theme-chalk/index.css"
 />
 ```
 

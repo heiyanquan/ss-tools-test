@@ -7,7 +7,7 @@ export const themeRoot = resolve(pkgRoot, 'theme-chalk')
 export const hookRoot = resolve(pkgRoot, 'hooks')
 export const localeRoot = resolve(pkgRoot, 'locale')
 export const directiveRoot = resolve(pkgRoot, 'directives')
-export const epRoot = resolve(pkgRoot, 'ss-ele')
+export const epRoot = resolve(pkgRoot, 'heiyanquan')
 export const utilRoot = resolve(pkgRoot, 'utils')
 export const buildRoot = resolve(projRoot, 'internal', 'build')
 
@@ -18,8 +18,8 @@ export const vpRoot = resolve(docRoot, '.vitepress')
 
 /** `/lib` */
 export const buildOutput = resolve(projRoot, 'lib')
-/** `/lib/ss-ele` */
-export const epOutput = resolve(buildOutput, 'ss-ele')
+/** `/lib/heiyanquan` */
+export const epOutput = resolve(buildOutput, 'heiyanquan')
 
 export const projPackage = resolve(projRoot, 'package.json')
 export const compPackage = resolve(compRoot, 'package.json')

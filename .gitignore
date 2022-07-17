@@ -12,7 +12,7 @@ node_modules
 dist
 lib
 coverage
-packages/ss-ele/version.ts
+packages/heiyanquan/version.ts
 
 # local env files
 *.local

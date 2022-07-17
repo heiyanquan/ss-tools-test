@@ -2,8 +2,12 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "composite": true,
-    "lib": ["ESNext"],
-    "types": ["node"],
+    "lib": [
+      "ESNext"
+    ],
+    "types": [
+      "node"
+    ],
     "skipLibCheck": true
   },
   "include": [
@@ -11,8 +15,13 @@
     "internal/**/*.json",
     "scripts/**/*",
     "packages/theme-chalk/*",
-    "packages/ss-ele/version.ts",
-    "packages/ss-ele/package.json"
+    "packages/heiyanquan/version.ts",
+    "packages/heiyanquan/package.json"
   ],
-  "exclude": ["**/__tests__/**", "**/tests/**", "**/dist", "**/lib"]
+  "exclude": [
+    "**/__tests__/**",
+    "**/tests/**",
+    "**/dist",
+    "**/lib"
+  ]
 }

@@ -1,18 +1,18 @@
 {
-  "name": "ss-ele",
+  "name": "heiyanquan",
   "version": "0.0.2",
   "description": "A Component Library for Vue 3",
   "keywords": [
-    "ss-ele",
+    "heiyanquan",
     "element",
     "component library",
     "ui framework",
     "ui",
     "vue"
   ],
-  "homepage": "https://ss-ele.org/",
+  "homepage": "https://heiyanquan.org/",
   "bugs": {
-    "url": "https://github.com/ss-ele/ss-ele/issues"
+    "url": "https://github.com/heiyanquan/heiyanquan/issues"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -34,7 +34,7 @@
   "jsdelivr": "lib/index.full.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ss-ele/ss-ele.git"
+    "url": "git+https://github.com/heiyanquan/heiyanquan.git"
   },
   "publishConfig": {
     "access": "public"

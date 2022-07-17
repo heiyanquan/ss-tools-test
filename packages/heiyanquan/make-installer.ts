@@ -1,8 +1,8 @@
-import { provideGlobalConfig } from '@ss-ele/hooks'
-import { INSTALLED_KEY } from '@ss-ele/constants'
+import { provideGlobalConfig } from '@heiyanquan/hooks'
+import { INSTALLED_KEY } from '@heiyanquan/constants'
 import { version } from './version'
 import type { App, Plugin } from '@vue/runtime-core'
-import type { ConfigProviderContext } from '@ss-ele/tokens'
+import type { ConfigProviderContext } from '@heiyanquan/tokens'
 
 export const makeInstaller = (components: Plugin[] = []) => {
   const install = (app: App, options?: ConfigProviderContext) => {

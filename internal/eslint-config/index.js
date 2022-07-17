@@ -246,7 +246,7 @@ module.exports = defineConfig({
             position: 'before',
           },
           {
-            pattern: '@ss-ele/**',
+            pattern: '@heiyanquan/**',
             group: 'internal',
           },
         ],

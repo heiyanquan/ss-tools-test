@@ -12,7 +12,7 @@ import {
   excludeFiles,
   pkgRoot,
   projRoot,
-} from '@ss-ele/build-utils'
+} from '@heiyanquan/build-utils'
 import { pathRewriter } from '../utils'
 import type { CompilerOptions, SourceFile } from 'ts-morph'
 
@@ -88,7 +88,7 @@ async function addSourceFiles(project: Project) {
 
   const globSourceFile = '**/*.{js?(x),ts?(x),vue}'
   const filePaths = excludeFiles(
-    await glob([globSourceFile, '!ss-ele/**/*'], {
+    await glob([globSourceFile, '!heiyanquan/**/*'], {
       cwd: pkgRoot,
       absolute: true,
       onlyFiles: true,

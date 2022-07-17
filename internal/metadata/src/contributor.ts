@@ -10,8 +10,8 @@ import {
   errorAndExit,
   projRoot,
   writeJson,
-} from '@ss-ele/build-utils'
-import { REPO_BRANCH, REPO_NAME, REPO_OWNER } from '@ss-ele/build-constants'
+} from '@heiyanquan/build-utils'
+import { REPO_BRANCH, REPO_NAME, REPO_OWNER } from '@heiyanquan/build-constants'
 
 interface FetchOption {
   key: string

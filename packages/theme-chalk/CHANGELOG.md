@@ -1,4 +1,4 @@
-# @ss-ele/theme-chalk
+# @heiyanquan/theme-chalk
 
 ## 0.0.2
 

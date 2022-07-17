@@ -1,1 +1,1 @@
-import '@ss-ele/theme-chalk/base.css'
+import '@heiyanquan/theme-chalk/base.css'

@@ -1,9 +1,9 @@
 {
-  "name": "@ss-ele/metadata",
+  "name": "@heiyanquan/metadata",
   "version": "0.0.1",
   "description": "Metadata for Element Plus",
   "keywords": [
-    "ss-ele"
+    "heiyanquan"
   ],
   "license": "MIT",
   "files": [
@@ -19,9 +19,9 @@
     "dev": "cross-env DEV=1 pnpm run build"
   },
   "devDependencies": {
-    "@ss-ele/build": "^0.0.1",
-    "@ss-ele/build-constants": "^0.0.1",
-    "@ss-ele/build-utils": "^0.0.1",
+    "@heiyanquan/build": "^0.0.1",
+    "@heiyanquan/build-constants": "^0.0.1",
+    "@heiyanquan/build-utils": "^0.0.1",
     "@types/lodash-es": "^4.17.6",
     "chalk": "^5.0.1",
     "consola": "^2.15.3",

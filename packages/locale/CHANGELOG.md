@@ -1,4 +1,4 @@
-# @ss-ele/locale
+# @heiyanquan/locale
 
 ## 0.0.2
 

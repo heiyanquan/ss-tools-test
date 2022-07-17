@@ -1,8 +1,8 @@
 import { writeFile } from 'fs/promises'
 import path from 'path'
 import consola from 'consola'
-import { epRoot } from '@ss-ele/build-utils'
-import pkg from '../packages/ss-ele/package.json' // need to be checked
+import { epRoot } from '@heiyanquan/build-utils'
+import pkg from '../packages/heiyanquan/package.json' // need to be checked
 
 function getVersion() {
   const tagVer = process.env.TAG_VERSION

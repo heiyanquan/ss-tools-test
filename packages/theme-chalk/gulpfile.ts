@@ -7,7 +7,7 @@ import autoprefixer from 'gulp-autoprefixer'
 import cleanCSS from 'gulp-clean-css'
 import rename from 'gulp-rename'
 import consola from 'consola'
-import { epOutput } from '@ss-ele/build-utils'
+import { epOutput } from '@heiyanquan/build-utils'
 
 const distFolder = path.resolve(__dirname, 'lib')
 const distBundle = path.resolve(epOutput, 'theme-chalk')
@@ -64,7 +64,7 @@ function buildDarkCssVars() {
 }
 
 /**
- * copy from packages/theme-chalk/lib to lib/ss-ele/theme-chalk
+ * copy from packages/theme-chalk/lib to lib/heiyanquan/theme-chalk
  */
 export function copyThemeChalkBundle() {
   return src(`${distFolder}/**`).pipe(dest(distBundle))

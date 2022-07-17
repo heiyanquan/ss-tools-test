@@ -1,4 +1,4 @@
-# @ss-ele/directives
+# @heiyanquan/directives
 
 ## 0.0.2
 

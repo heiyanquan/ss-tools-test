@@ -15,7 +15,7 @@ import {
   getPackageDependencies,
   pkgRoot,
   projRoot,
-} from '@ss-ele/build-utils'
+} from '@heiyanquan/build-utils'
 
 const esbuildPlugin = () => ({
   ...esbuild({
@@ -42,11 +42,11 @@ export default defineConfig(async ({ mode }) => {
     resolve: {
       alias: [
         {
-          find: /^ss-ele(\/(es|lib))?$/,
+          find: /^heiyanquan(\/(es|lib))?$/,
           replacement: path.resolve(epRoot, 'index.ts'),
         },
         {
-          find: /^ss-ele\/(es|lib)\/(.*)$/,
+          find: /^heiyanquan\/(es|lib)\/(.*)$/,
           replacement: `${pkgRoot}/$2`,
         },
       ],

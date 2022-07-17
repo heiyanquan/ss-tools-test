@@ -1,9 +1,9 @@
 import installer from './defaults'
-export * from '@ss-ele/components'
-export * from '@ss-ele/constants'
-export * from '@ss-ele/directives'
-export * from '@ss-ele/hooks'
-export * from '@ss-ele/tokens'
+export * from '@heiyanquan/components'
+export * from '@heiyanquan/constants'
+export * from '@heiyanquan/directives'
+export * from '@heiyanquan/hooks'
+export * from '@heiyanquan/tokens'
 export * from './make-installer'
 
 export const install = installer.install

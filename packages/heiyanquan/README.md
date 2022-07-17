@@ -1,11 +1,11 @@
-# `ss-ele`
+# `heiyanquan`
 
 > TODO: description
 
 ## Usage
 
 ```
-const elementPlus = require('ss-ele');
+const elementPlus = require('heiyanquan');
 
 // TODO: DEMONSTRATE API
 ```

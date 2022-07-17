@@ -13,10 +13,10 @@ import {
   PKG_BRAND_NAME,
   PKG_CAMELCASE_LOCAL_NAME,
   PKG_CAMELCASE_NAME,
-} from '@ss-ele/build-constants'
-import { epOutput, epRoot, localeRoot } from '@ss-ele/build-utils'
-import { version } from '../../../../packages/ss-ele/version'
-import { ElementPlusAlias } from '../plugins/ss-ele-alias'
+} from '@heiyanquan/build-constants'
+import { epOutput, epRoot, localeRoot } from '@heiyanquan/build-utils'
+import { version } from '../../../../packages/heiyanquan/version'
+import { ElementPlusAlias } from '../plugins/heiyanquan-alias'
 import {
   formatBundleFilename,
   generateExternal,

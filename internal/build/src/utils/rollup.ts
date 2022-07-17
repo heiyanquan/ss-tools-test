@@ -1,4 +1,4 @@
-import { epPackage, getPackageDependencies } from '@ss-ele/build-utils'
+import { epPackage, getPackageDependencies } from '@heiyanquan/build-utils'
 
 import type { OutputOptions, RollupBuild } from 'rollup'
 

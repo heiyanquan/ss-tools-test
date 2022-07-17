@@ -1,10 +1,10 @@
 {
-  "name": "@ss-ele/build-utils",
+  "name": "@heiyanquan/build-utils",
   "version": "0.0.1",
   "private": true,
   "description": "Build utils for Element Plus",
   "keywords": [
-    "ss-ele"
+    "heiyanquan"
   ],
   "license": "MIT",
   "main": "./lib/index.cjs",

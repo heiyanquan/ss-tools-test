@@ -5,7 +5,7 @@ import {
   epPackage,
   getPackageManifest,
   projRoot,
-} from '@ss-ele/build-utils'
+} from '@heiyanquan/build-utils'
 
 import type { TaskFunction } from 'gulp'
 import type {
@@ -22,7 +22,7 @@ const reComponentName: ReComponentName = (title: string) =>
     .toLowerCase()}`
 
 const reDocUrl: ReDocUrl = (fileName, header) => {
-  const docs = 'https://ss-ele.org/en-US/component/'
+  const docs = 'https://heiyanquan.org/en-US/component/'
   const _header = header ? header.replaceAll(/\s+/g, '-').toLowerCase() : ''
 
   return `${docs}${fileName}.html${_header ? '#' : ''}${_header}`

@@ -1,4 +1,4 @@
-# @ss-ele/constants
+# @heiyanquan/constants
 
 ## 0.0.2
 

@@ -1,4 +1,4 @@
-import { ElButton } from '@ss-ele/components/button'
+import { ElButton } from '@heiyanquan/components/button'
 
 import type { Plugin } from 'vue'
 

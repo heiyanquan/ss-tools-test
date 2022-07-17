@@ -1,13 +1,13 @@
 import { computed, getCurrentInstance, inject, provide, ref, unref } from 'vue'
-import { configProviderContextKey } from '@ss-ele/tokens'
-import { debugWarn, keysOf } from '@ss-ele/utils'
+import { configProviderContextKey } from '@heiyanquan/tokens'
+import { debugWarn, keysOf } from '@heiyanquan/utils'
 
 import type { MaybeRef } from '@vueuse/core'
 import type { App, Ref } from 'vue'
-import type { ConfigProviderContext } from '@ss-ele/tokens'
+import type { ConfigProviderContext } from '@heiyanquan/tokens'
 
 // into the component as default injection value.
-// refer to: https://github.com/ss-ele/ss-ele/issues/2610#issuecomment-887965266
+// refer to: https://github.com/heiyanquan/heiyanquan/issues/2610#issuecomment-887965266
 const globalConfig = ref<ConfigProviderContext>()
 
 export function useGlobalConfig<

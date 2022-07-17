@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-import ssEle from 'ss-ele'
-import '@ss-ele/theme-chalk/src/index.scss'
+import ssEle from 'heiyanquan'
+import '@heiyanquan/theme-chalk/src/index.scss'
 ;(async () => {
   const apps = import.meta.glob('./src/*.vue')
   const name = location.pathname.replace(/^\//, '') || 'App'

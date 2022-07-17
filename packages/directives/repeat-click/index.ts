@@ -1,4 +1,4 @@
-import { on, once } from '@ss-ele/utils'
+import { on, once } from '@heiyanquan/utils'
 
 import type { DirectiveBinding, ObjectDirective } from 'vue'
 

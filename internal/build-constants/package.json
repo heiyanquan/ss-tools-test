@@ -1,9 +1,9 @@
 {
-  "name": "@ss-ele/build-constants",
+  "name": "@heiyanquan/build-constants",
   "version": "0.0.1",
   "description": "Build constants for Element Plus",
   "keywords": [
-    "ss-ele"
+    "heiyanquan"
   ],
   "license": "MIT",
   "main": "./lib/index.cjs",

@@ -1,4 +1,4 @@
-import { PKG_NAME, PKG_PREFIX } from '@ss-ele/build-constants'
+import { PKG_NAME, PKG_PREFIX } from '@heiyanquan/build-constants'
 import { buildConfig } from '../build-info'
 
 import type { Module } from '../build-info'
