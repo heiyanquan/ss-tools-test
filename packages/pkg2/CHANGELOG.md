@@ -1,5 +1,17 @@
 # @heiyanquan/monorepo2
 
+## 2.0.2
+
+### Patch Changes
+
+- readme.md
+
+## 2.0.1
+
+### Patch Changes
+
+- update version
+
 ## 2.0.0
 
 ### Major Changes

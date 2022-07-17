@@ -1,5 +1,21 @@
 # @heiyanquan/monorepo1
 
+## 2.0.2
+
+### Patch Changes
+
+- readme.md
+- Updated dependencies
+  - @heiyanquan/monorepo1@2.0.2
+
+## 2.0.1
+
+### Patch Changes
+
+- update version
+- Updated dependencies
+  - @heiyanquan/monorepo1@2.0.1
+
 ## 2.0.0
 
 ### Major Changes
