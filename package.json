@@ -4,7 +4,9 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm --filter=@heiyanquan/* run build",
-    "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
+    "clear1": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
+    "clear2": "rimraf 'internal/*/{lib,node_modules}' && rimraf 'playground/*/{lib,node_modules}'",
+    "clear": "npm run clear1 && npm run clear2",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "pnpm build && pnpm release:only",

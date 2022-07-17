@@ -1,0 +1,9 @@
+@use 'sass:map';
+
+// CSS3 var
+@use './var' as *;
+
+html.dark {
+  color-scheme: dark;
+}
+
